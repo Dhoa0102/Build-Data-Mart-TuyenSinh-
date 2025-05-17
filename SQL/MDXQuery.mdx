@@ -1,0 +1,43 @@
+﻿-- Tỷ lệ chọi
+CREATE MEMBER CURRENTCUBE.[Measures].[TyLeChoi] AS
+  IIF(
+    [Dim Tuyen Sinh].[Chi Tieu TS].CurrentMember.MemberValue > 0,
+    [Measures].[Fact Xet Tuyen]
+      / [Dim Tuyen Sinh].[Chi Tieu TS].CurrentMember.MemberValue,
+    NULL
+  ),
+  VISIBLE = TRUE,
+  FORMAT_STRING = "Percent";
+
+-- Tỷ lệ trúng tuyển
+CREATE MEMBER CURRENTCUBE.[Measures].[TyLeTrungTuyen] AS
+  IIF(
+    [Measures].[Fact Xet Tuyen] > 0,
+    [Measures].[Số thí sinh trúng tuyển]
+      / [Measures].[Fact Xet Tuyen],
+    NULL
+  ),
+  VISIBLE = TRUE,
+  FORMAT_STRING = "Percent";
+
+-- Điểm max/min/avg theo ngành
+CREATE MEMBER CURRENTCUBE.[Measures].[MaxScore] AS
+  MAX(
+    EXISTING [Dim Nguyen Vong].[Ma Nganh].Members,
+    [Measures].[DiemNguyenVong]
+  ),
+  VISIBLE = TRUE;
+
+CREATE MEMBER CURRENTCUBE.[Measures].[MinScore] AS
+  MIN(
+    EXISTING [Dim Nguyen Vong].[Ma Nganh].Members,
+    [Measures].[DiemNguyenVong]
+  ),
+  VISIBLE = TRUE;
+
+CREATE MEMBER CURRENTCUBE.[Measures].[AvgScore] AS
+  AVG(
+    EXISTING [Dim Nguyen Vong].[Ma Nganh].Members,
+    [Measures].[DiemNguyenVong]
+  ),
+  VISIBLE = TRUE;
