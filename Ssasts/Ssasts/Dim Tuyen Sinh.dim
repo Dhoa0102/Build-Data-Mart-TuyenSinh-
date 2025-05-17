@@ -1,0 +1,236 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="ba5703eb-f9f4-4c4d-b71e-ea24afe8e323" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Tuyen Sinh</ID>
+  <Name>Dim Tuyen Sinh</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1293" scrolltop="-3747" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="5842" y="11240" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_TuyenSinh" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3217" height="3747" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000910c0000a30e0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_TuyenSinh" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1293</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3747</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="fb241076-ca83-46bd-99d8-64430978cb52">
+    <DataSourceViewID>Tuyensinh</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="ba6a4026-fc1f-408d-90ed-318e2ecc68bb">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="4b5492b8-fe9c-4066-9686-28ade2716b45">
+      <ID>Ma Nganh</ID>
+      <Name>Ma Nganh</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="25c18286-5b01-49e4-83e9-339751f22a02">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="16e88218-ed9a-48fd-bad0-7d973f8f8854">
+            <TableID>dbo_Dim_TuyenSinh</TableID>
+            <ColumnID>Ma_nganh</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="04dd346a-b0ac-419d-b771-61fc64591be4">
+          <AttributeID>Chi Tieu TS</AttributeID>
+          <Name>Chi Tieu TS</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="37d47382-b8e3-4b9b-8f66-354008cbbd36">
+          <AttributeID>Diem Xet Tuyen</AttributeID>
+          <Name>Diem Xet Tuyen</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f810d786-d148-4f19-9fbc-af0a4e18acd0">
+          <AttributeID>C00</AttributeID>
+          <Name>C00</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2c1df133-657f-4850-a88a-9860251d5364">
+          <AttributeID>D01</AttributeID>
+          <Name>D01</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c16f7e69-cced-4194-b7a9-5123bb816ae5">
+          <AttributeID>D09</AttributeID>
+          <Name>D09</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ba1e6a5a-e29d-4bff-8769-17db6d61f4ce">
+          <AttributeID>D10</AttributeID>
+          <Name>D10</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9e597b85-c6be-4d4c-85bf-ee53809d7643">
+          <AttributeID>D15</AttributeID>
+          <Name>D15</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="745ed35e-120e-4f49-bc68-91d06d3cb895">
+      <ID>Chi Tieu TS</ID>
+      <Name>Chi Tieu TS</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c3a883c0-b5cd-4bee-8cc1-39e08a9db889">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fe9e3e1c-2f81-49d9-beae-b0704c5d07b5">
+            <TableID>dbo_Dim_TuyenSinh</TableID>
+            <ColumnID>Chi_Tieu_TS</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ea66e599-0886-4d61-8181-f4a69bb01427">
+      <ID>Diem Xet Tuyen</ID>
+      <Name>Diem Xet Tuyen</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="cbc2ba44-7b96-4c54-acdd-a0773db6edef">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f095b39e-f57b-4699-8734-5e5709ad3032">
+            <TableID>dbo_Dim_TuyenSinh</TableID>
+            <ColumnID>Diem_XetTuyen</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5dcf8296-0790-47e6-a841-f7eeee0845c1">
+      <ID>C00</ID>
+      <Name>C00</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9294e102-7e69-4b6f-9c84-acce5c2daf05">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3bf61b36-9694-40fa-b001-5cc8690f4027">
+            <TableID>dbo_Dim_TuyenSinh</TableID>
+            <ColumnID>C00</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="cccf6f2a-368f-4f0f-a29d-5995d9826327">
+      <ID>D01</ID>
+      <Name>D01</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="01b3ab1a-776d-40e3-bb63-4b1cd387b00b">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6132adac-4551-4c59-b044-b492b846bf4f">
+            <TableID>dbo_Dim_TuyenSinh</TableID>
+            <ColumnID>D01</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a07ef7ec-5045-42d6-b394-07068c941e74">
+      <ID>D09</ID>
+      <Name>D09</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e48d6588-8413-4d18-9127-5db7c8c81fbb">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e4ccf27e-979a-48b4-ac82-f08c3130f779">
+            <TableID>dbo_Dim_TuyenSinh</TableID>
+            <ColumnID>D09</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="63ee1fb6-c182-4a5d-a399-06ed9e0bd843">
+      <ID>D10</ID>
+      <Name>D10</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="270ad7de-cc82-4fe7-8b80-f5870be83eab">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3e9a4f75-59e7-497b-a78c-d0edda1bffef">
+            <TableID>dbo_Dim_TuyenSinh</TableID>
+            <ColumnID>D10</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="76224406-eb3e-41bf-92f4-34602db7e86a">
+      <ID>D15</ID>
+      <Name>D15</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="889acd39-52a8-4941-8631-4c608d76b5b5">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="49091e16-1573-4b7b-b513-c4931e1840b3">
+            <TableID>dbo_Dim_TuyenSinh</TableID>
+            <ColumnID>D15</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

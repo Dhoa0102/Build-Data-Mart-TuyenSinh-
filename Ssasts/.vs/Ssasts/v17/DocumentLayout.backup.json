@@ -1,0 +1,98 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\source\\repos\\Ssasts\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F6F9D6C8-B09F-10D0-0FA5-D33FA4A8C81F}|Ssasts\\Ssasts.dwproj|C:\\Users\\Administrator\\source\\repos\\Ssasts\\Ssasts\\Tuyensinh.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{F6F9D6C8-B09F-10D0-0FA5-D33FA4A8C81F}|Ssasts\\Ssasts.dwproj|solutionrelative:Ssasts\\Tuyensinh.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6F9D6C8-B09F-10D0-0FA5-D33FA4A8C81F}|Ssasts\\Ssasts.dwproj|C:\\Users\\Administrator\\source\\repos\\Ssasts\\Ssasts\\Dim Thi Sinh.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{F6F9D6C8-B09F-10D0-0FA5-D33FA4A8C81F}|Ssasts\\Ssasts.dwproj|solutionrelative:Ssasts\\Dim Thi Sinh.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6F9D6C8-B09F-10D0-0FA5-D33FA4A8C81F}|Ssasts\\Ssasts.dwproj|C:\\Users\\Administrator\\source\\repos\\Ssasts\\Ssasts\\Dim Tuyen Sinh.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{F6F9D6C8-B09F-10D0-0FA5-D33FA4A8C81F}|Ssasts\\Ssasts.dwproj|solutionrelative:Ssasts\\Dim Tuyen Sinh.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Tuyensinh.cube [Design]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Ssasts\\Ssasts\\Tuyensinh.cube",
+              "RelativeDocumentMoniker": "Ssasts\\Tuyensinh.cube",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Ssasts\\Ssasts\\Tuyensinh.cube [Design]",
+              "RelativeToolTip": "Ssasts\\Tuyensinh.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-08T23:36:48.381Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dim Tuyen Sinh.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Ssasts\\Ssasts\\Dim Tuyen Sinh.dim",
+              "RelativeDocumentMoniker": "Ssasts\\Dim Tuyen Sinh.dim",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Ssasts\\Ssasts\\Dim Tuyen Sinh.dim [Design]",
+              "RelativeToolTip": "Ssasts\\Dim Tuyen Sinh.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-25T17:16:23.152Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dim Thi Sinh.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Ssasts\\Ssasts\\Dim Thi Sinh.dim",
+              "RelativeDocumentMoniker": "Ssasts\\Dim Thi Sinh.dim",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Ssasts\\Ssasts\\Dim Thi Sinh.dim [Design]",
+              "RelativeToolTip": "Ssasts\\Dim Thi Sinh.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-25T17:16:38.083Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 163,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
